@@ -7,9 +7,7 @@
 # LICENSE file in the root directory of this source tree.
 #
 
-require 'acts_as_hashable'
 require 'burner'
+require 'xmlsimple'
 
-# Stub out the top-level namespace
-module MarkupFuel
-end
+require_relative 'markup_fuel/library'

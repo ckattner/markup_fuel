@@ -1,0 +1,14 @@
+<patients>
+  <patient id="1">
+    <demographics>
+      <first>Bozo</first>
+      <last>Clown</last>
+    </demographics>
+  </patient>
+  <patient id="2">
+    <demographics>
+      <first>Frank</first>
+      <last>Rizzo</last>
+    </demographics>
+  </patient>
+</patients>
