@@ -9,10 +9,6 @@
 
 require 'spec_helper'
 
-def bare(val)
-  val.to_s.gsub("\n", '').gsub(' ', '')
-end
-
 describe MarkupFuel::Library::Serialize::Xml do
   let(:output)        { Burner::Output.new(outs: [StringIO.new]) }
   let(:register)      { 'register_a' }
