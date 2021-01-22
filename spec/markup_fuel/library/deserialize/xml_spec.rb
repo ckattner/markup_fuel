@@ -150,7 +150,6 @@ describe MarkupFuel::Library::Deserialize::Xml do
       pipeline = {
         jobs: [
           {
-            name: 'read',
             type: 'b/value/static',
             register: 'patients',
             value: <<~XML
@@ -173,7 +172,6 @@ describe MarkupFuel::Library::Deserialize::Xml do
             XML
           },
           {
-            name: 'parse',
             register: 'patients',
             type: 'markup_fuel/deserialize/xml'
           }

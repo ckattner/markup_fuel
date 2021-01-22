@@ -23,8 +23,8 @@ module MarkupFuel
         attr_reader :options
 
         def initialize(
-          name:,
           force_array: false,
+          name: '',
           register: Burner::DEFAULT_REGISTER
         )
           super(name: name, register: register)

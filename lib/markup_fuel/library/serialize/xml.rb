@@ -24,7 +24,7 @@ module MarkupFuel
         attr_reader :options
 
         def initialize(
-          name:,
+          name: '',
           no_attributes: true,
           register: Burner::DEFAULT_REGISTER,
           root_name: nil

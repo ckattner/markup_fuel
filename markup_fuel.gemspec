@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.5'
 
-  s.add_dependency('burner', '~>1.0')
+  s.add_dependency('burner', '~>1.7')
   s.add_dependency('xml-simple', '~>1.1')
 
   s.add_development_dependency('guard-rspec', '~>4.7')
